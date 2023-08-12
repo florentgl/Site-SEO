@@ -125,7 +125,9 @@ section.about h1 {
 }
 
 section.about h2 span {
-    color: var(--primary);
+    border-top: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+    padding-right: 7px;
 }
 
 section.about h3 {
@@ -386,6 +388,11 @@ footer {
     text-align: center;
 }
 
+.next-step-btn>a>button {
+    background-color: RGB(255, 153, 0);
+    color: white;
+}
+
 
 @media only screen and (max-width: 1024px) {
 
@@ -442,7 +449,7 @@ footer {
 
     .about-image:hover {
         animation: shake 0.5s;
-        animation-iteration-count: infinite;
+
     }
 
     @keyframes shake {
