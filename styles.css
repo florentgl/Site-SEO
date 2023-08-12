@@ -178,6 +178,10 @@ section.services {
     font-weight: 400;
 }
 
+.card h3 {
+    margin-bottom: 14px;
+}
+
 .card img {
     width: 50px;
     background: white;
