@@ -70,10 +70,11 @@ body {
     margin-top: -7rem;
 }
 
-.hero .right h6 {
+.hero .right p:first-child {
     font-size: 1.6rem;
     color: var(--primary);
     margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .hero .right h1 {
