@@ -115,6 +115,7 @@ section {
 #profile-image {
     border-radius: 65% 35% 74% 26% / 30% 71% 29% 70%;
     margin-right: 30px;
+    box-shadow: 0px 15px 85px -12px rgba(0,0,0,0.64);
 }
 
 section.about h1 {
