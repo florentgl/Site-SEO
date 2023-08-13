@@ -129,10 +129,15 @@ section.about h1 {
     font-weight: 600;
 }
 
+section.about h2 {
+    margin-bottom: 10px;
+}
+
 section.about h2 span {
     border-top: 1px solid var(--primary);
     border-right: 1px solid var(--primary);
-    padding-right: 7px;
+    padding-right: 10px;
+    padding-top: 4px;
 }
 
 section.about h3 {
