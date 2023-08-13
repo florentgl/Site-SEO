@@ -568,3 +568,69 @@ footer>h2 {
     }
 }
 
+
+#faq {
+    padding: 50px 20%;
+    border-bottom: 1px solid var(--primary);
+    background-color: var(--bgDark);
+    color: var(--white);
+    font-weight: lighter;
+    font-family: "Lato", sans-serif;;
+}
+
+
+#faq h2 {
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+ /* Masquer le contenu détaillé par défaut */
+ #faq details {
+    display: block;
+}
+
+/* Style pour le titre du détail */
+#faq summary {
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Poppins";
+    background-color: var(--white);
+    color: var(--bgDark);
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#faq p {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 2s ease !important;
+}
+
+#faq details[open] p {
+    max-height: 1000px;
+    font-family: "Lato", sans-serif;
+    color: var(--bgDark);
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    background-color: var(--white);
+    padding: 15px 30px;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 768px) {
+    #faq {
+        padding: 50px 2%;
+    }
+
+    #faq h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #faq summary {
+        margin-bottom: 25px;
+    }
+}
