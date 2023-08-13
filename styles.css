@@ -319,6 +319,11 @@ footer {
     background-color: white;
 }
 
+footer>h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .footer ul {
     margin-top: 30px;
     margin-bottom: 30px;
