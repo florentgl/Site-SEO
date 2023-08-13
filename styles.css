@@ -402,6 +402,8 @@ footer>h2 {
 #next-step>div>p {
     margin-bottom: 20px;
     text-align: justify;
+    font-weight: bolder;
+    padding-left: 15px;
 }
 
 .next-step-btn {
