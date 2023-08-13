@@ -347,7 +347,11 @@ footer {
 #hamburger {
     display: none;
     flex: 1;
+}
 
+#hamburger>img {
+    width: 40px;
+    height: auto;
 }
 
 #main {
