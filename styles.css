@@ -600,6 +600,7 @@ footer>h2 {
     padding-left: 10px;
     padding-top: 8px;
     padding-bottom: 8px;
+    border-radius: 4px;
 }
 
 #faq p {
@@ -618,6 +619,7 @@ footer>h2 {
     background-color: var(--white);
     padding: 15px 30px;
     font-weight: bolder;
+    border-radius: 4px;
 }
 
 @media only screen and (max-width: 768px) {
