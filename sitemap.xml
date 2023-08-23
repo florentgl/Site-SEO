@@ -9,7 +9,18 @@
 
 <url>
   <loc>https://florentg.com/</loc>
-  <lastmod>2023-08-13T02:54:41+00:00</lastmod>
+  <lastmod>2023-08-23T20:55:18+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://florentg.com/referencement-web-montreal.html</loc>
+  <lastmod>2023-08-23T20:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://florentg.com/index.html</loc>
+  <lastmod>2023-08-23T20:55:18+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
