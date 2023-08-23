@@ -636,3 +636,31 @@ footer>h2 {
         margin-bottom: 25px;
     }
 }
+
+.blog {
+    margin-top: 0; 
+    margin-left: 15%; 
+    margin-right: 15%; 
+    padding: 0 30px;
+}
+
+#blog-title {
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .blog {
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    #blog-title {
+        margin: 50px 0;
+    }
+
+    #blog-title>p {
+        text-align: left;
+    }
+}
