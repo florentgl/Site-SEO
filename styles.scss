@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+    --primary: rgb(29, 221, 189);
+    --bgDark: rgb(12, 12, 12);
+    --white: rgb(250, 250, 250);
+    --secondary: rgb(0, 59, 50);
+    --bgLight: rgb(248, 248, 248);
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    line-height: 1.2;
+    word-spacing: 1px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6rem;
+}
+
+h1 {
+    /** TEXT GRADIENT */
+    color: #9317e2;
+    background-image: -webkit-linear-gradient(45deg, #9317e2, #04afed, #1da106);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    max-width: 768px;
+}
+
+header {
+    font-weight: 700;
+    margin: 0;
+
+    p {
+        padding: 0;
+        margin-bottom: 0;
+        font-weight: 300;
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+main {
+    p {
+        font-weight: 300;
+        max-width: 768px;
+
+        a {
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-bottom: 1px solid black;
+            color: black;
+        }
+
+        a:hover, a:active, a:visited, a:focus {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+footer {
+    font-weight: 300;
+    font-size: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-top: solid 1px black;
+    border-top: solid 1px rgb(244, 244, 244);
+    margin-top: 5em;
+
+    p {
+        margin-right: 2rem;
+    }
+
+    a, a:hover, a:active, a:visited, a:focus {
+        margin-right: 0.8rem;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.bold-lang {
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 3rem;
+
+        h1 {
+            font-size: 1.5rem;
+            
+        }
+
+        main {
+            
+            p, a {
+                font-size: 1rem;
+                padding: 0;
+            }
+        }
+
+        footer {
+            font-size: 1rem;
+        }
+    }
+}
