@@ -47,7 +47,6 @@ header {
     }
 }
 
-
 main {
     p {
         font-weight: 300;
@@ -60,7 +59,10 @@ main {
             color: black;
         }
 
-        a:hover, a:active, a:visited, a:focus {
+        a:hover,
+        a:active,
+        a:visited,
+        a:focus {
             text-decoration: none;
             color: black;
         }
@@ -81,7 +83,11 @@ footer {
         margin-right: 2rem;
     }
 
-    a, a:hover, a:active, a:visited, a:focus {
+    a,
+    a:hover,
+    a:active,
+    a:visited,
+    a:focus {
         margin-right: 0.8rem;
         text-decoration: none;
         color: black;
@@ -92,21 +98,37 @@ footer {
     font-weight: 500;
 }
 
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 660px) {
     .container {
-        padding: 3rem;
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 6rem 3rem;
 
         h1 {
             font-size: 1.5rem;
-            
+            max-width: 90%;
         }
 
         main {
-            
-            p, a {
+            p,
+            a {
                 font-size: 1rem;
                 padding: 0;
+            }
+
+            .contact {
+                margin-top: 20%;
+                font-weight: 500;
+                font-size: 1.2rem;
+
+                a {
+                    font-size: 1.2rem;
+                }
             }
         }
 

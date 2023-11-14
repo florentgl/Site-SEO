@@ -55,7 +55,10 @@ main p a {
   border-bottom: 1px solid black;
   color: black;
 }
-main p a:hover, main p a:active, main p a:visited, main p a:focus {
+main p a:hover,
+main p a:active,
+main p a:visited,
+main p a:focus {
   text-decoration: none;
   color: black;
 }
@@ -73,29 +76,47 @@ footer {
 footer p {
   margin-right: 2rem;
 }
-footer a, footer a:hover, footer a:active, footer a:visited, footer a:focus {
+footer a,
+footer a:hover,
+footer a:active,
+footer a:visited,
+footer a:focus {
   margin-right: 0.8rem;
   text-decoration: none;
   color: black;
-}
-footer svg {
-  font-size: 1rem;
 }
 
 .bold-lang {
   font-weight: 500;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 660px) {
   .container {
-    padding: 3rem;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 6rem 3rem;
   }
   .container h1 {
     font-size: 1.5rem;
+    max-width: 90%;
   }
-  .container main p, .container main a {
+  .container main p,
+  .container main a {
     font-size: 1rem;
     padding: 0;
+  }
+  .container main .contact {
+    margin-top: 20%;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .container main .contact a {
+    font-size: 1.2rem;
   }
   .container footer {
     font-size: 1rem;
